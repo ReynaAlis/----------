@@ -24,6 +24,7 @@ img {
     display: block;
     margin: 0 auto;
     margin-bottom: 32px;
+    filter: drop-shadow(-6px -6px 26px #ee5353);
 }
 
 .buttons {
@@ -233,4 +234,11 @@ button:hover {
         transform: translateY(-100vh);
         opacity: 0;
     }
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
 }
